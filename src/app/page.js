@@ -98,7 +98,7 @@ function LogInCard() {
 
 export default function Home() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="relative flex items-center justify-center min-h-screen min-w-screen bg-white dark:bg-gray-900 text-black dark:text-white">
       {/* Toggle button positioned top-right */}
       <div className="absolute top-4 right-4">
         <ThemeToggle />
