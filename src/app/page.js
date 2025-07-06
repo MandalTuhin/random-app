@@ -60,7 +60,7 @@ function Inputs() {
           required
         />
         <div
-          className="absolute cursor-pointer top-1/2 right-4 transform -translate-y-1/2 text-gray-500 dark:text-gray-300"
+          className="absolute cursor-pointer top-1/2 lg:right-4 right-2 transform -translate-y-1/2 text-gray-500 dark:text-gray-300"
           onClick={() => setShowPassword(!showPassword)}
         >
           {showPassword ? <Unlock /> : <Lock />}
@@ -88,7 +88,7 @@ function Inputs() {
 
 function LogInCard() {
   return (
-    <div className="flex flex-col items-center justify-center gap-6 p-10 rounded-none lg:rounded-3xl shadow-xl bg-gradient-to-r from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800">
+    <div className="flex flex-col items-center justify-center gap-6 p-10 h-screen w-screen lg:max-h-fit lg:max-w-fit rounded-none lg:rounded-3xl shadow-xl bg-gradient-to-r from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800">
       <ProfileIcon />
       <Heading />
       <Inputs />
