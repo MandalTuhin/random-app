@@ -88,7 +88,7 @@ function Inputs() {
 
 function LogInCard() {
   return (
-    <div className="flex flex-col items-center justify-center gap-6 p-10 h-screen w-screen lg:max-h-fit lg:max-w-fit rounded-none lg:rounded-3xl shadow-xl bg-gradient-to-r from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800">
+    <div className="w-full h-screen lg:h-auto lg:max-w-fit lg:rounded-3xl p-10 flex flex-col items-center justify-center gap-6 shadow-xl bg-gradient-to-r from-blue-500 to-purple-600 dark:from-gray-900 dark:to-gray-800">
       <ProfileIcon />
       <Heading />
       <Inputs />
@@ -98,7 +98,7 @@ function LogInCard() {
 
 export default function Home() {
   return (
-    <div className="relative flex items-center justify-center min-h-screen min-w-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+    <div className="relative flex items-center justify-center h-screen w-screen bg-white dark:bg-gray-900 text-black dark:text-white">
       {/* Toggle button positioned top-right */}
       <div className="absolute top-4 right-4">
         <ThemeToggle />
